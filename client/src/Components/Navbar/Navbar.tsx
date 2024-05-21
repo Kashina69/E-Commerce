@@ -2,7 +2,7 @@ import { CiSearch, CiUser, CiHeart, CiShoppingCart, } from "react-icons/ci";
 const Navbar = () =>{
     return(
         <nav className="flex justify-between">
-            <div className="flex list-none">
+            <div className="md:flex list-none hidden">
                 
                 <li>Men</li>
                 <li>Women</li>
@@ -12,7 +12,7 @@ const Navbar = () =>{
             <div>
                 <h1>LAMASTORE</h1>
             </div>
-            <div className="flex list-none">
+            <div className="md:flex list-none hidden">
                 <li>Homepage</li>
                 <li>About</li>
                 <li>Contact</li>
